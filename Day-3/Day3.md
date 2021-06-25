@@ -3,14 +3,14 @@
 ## Arithmetic Operation :
 
   - INTEGER
-```
+```sh
    echo $(( $num1 + $num2 ))
 
    same for -, %, *,
 ```
  - DECIMAL NUMBER
-```
-    >man bc (command line)
+```sh
+    man bc (command line)
 
     echo "   " | bc
 
@@ -23,7 +23,7 @@
 ## Case Statement :
 
  Pattern's can be any regular expressions
-```
+```sh
     case expression in
         pattern1 )
             statement ;;
@@ -37,7 +37,7 @@
   * : default statement will execute
 ```
 ## Different pattern's
-```
+```sh
     [a-z] )
      
     [A-z] )

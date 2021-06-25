@@ -2,13 +2,13 @@
 
 >## if-else and if-elseif-else
 ### format :-
-```
+```sh
 if [ condition ]
 then 
     statement
 fi
 ```
-```
+```sh
 if [ condition ]
 then 
     statement
@@ -23,7 +23,7 @@ fi
 ----  ----
 ## Comparision Operator :
 >Integer Special:
-```
+```sh
  -eq :Equal to             -lt : less than
  -ne :Not Equal to         -le : less than or equal to   
  -gt :greater than         </>/>=/<= : should be inside 
@@ -52,7 +52,7 @@ Character Special : Text data file.
 > Cat : create a text 
 
 ## AND and OR operator
-```
+```sh
  && -a : check and condition
  || -o : check or condition
 ```
